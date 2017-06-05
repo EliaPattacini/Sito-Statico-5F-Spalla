@@ -1,11 +1,11 @@
 {
-  "name": "sito-statico",
+  "name": "tesina maturità scientifica",
   "version": "0.0.0",
   "description": "scaffolding di sito statico con jade",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Giovanni Bruno",
+  "author": "Elia Pattacini",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.11.1",

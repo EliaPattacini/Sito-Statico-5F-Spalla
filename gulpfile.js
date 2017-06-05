@@ -71,6 +71,7 @@ gulp.task('serve', () => {
   browserSync({
     server: './dist',
     baseDir: '/',
+    routes:['/index.html'],
     port: 4000,
     notify: false
   });

@@ -1,5 +1,18 @@
-body {
-  background-color: white;
+.navbar {
+  margin-bottom: 0!important;
+  
+}
+
+.jumbotron{
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0;
+  top:52px;
+  background-image: url("./images/immagine3.jpg");
+  background-color: white!important;
 }
 
 footer {
@@ -7,6 +20,21 @@ footer {
   color: white;
 }
 
-#logo {
-  max-height: 30px;
+body{
+  background-color: white;
+}
+
+#Introduzione {
+ padding: 0 2%;
+}
+
+#img1{
+  max-width: 650px;
+}
+
+#Parte1 {
+ padding: 0 2%;
+}
+#img2{
+  max-width: 650px;
 }
