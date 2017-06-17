@@ -1,12 +1,20 @@
-body {
-  background-color: white;
+.navbar {
+  margin-bottom: .2px!important;
+  padding-bottom: 0.2px!important;
+  background-color: black!important;
+  
 }
 
-footer {
-  background-color: black;
-  color: white;
-}
-
-#logo {
-  max-height: 30px;
+.jumbotron{
+  min-height: 100vh;
+  max-width:100%;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px;
+  top:0px;
+  background-image: url("./images/mappa_terradimezzo.jpg");
+  background-color: white!important;
 }
