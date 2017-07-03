@@ -94,4 +94,17 @@
  color : white;
  font-size: 50px;
  text-transform: uppercase;
+ font-family: 'Tangerine', serif;
+ }
+ #Bottone{
+  margin-top: 50%;
+  background-color: transparent!important;
+  border-color: #ccc!important;
+  min-height: 100px;
+  width: 250px;
+ }
+  #Bottone a{
+ color : white;
+ font-family: 'Tangerine', serif;
+  font-size: 48px;
  }
