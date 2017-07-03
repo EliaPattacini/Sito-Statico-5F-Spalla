@@ -1,13 +1,15 @@
-extends ../layout
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
 
-block head
-  title Home
+  link(href='styles/styles.css', rel='stylesheet')
 
-block content
-
-  img#Immagine(src='./images/mappa_terradimezzo.jpg', width='100', height='100', alt='YourImage', usemap='#YourMap')
-  map(name='YourMap')
-    area(shape='rect', coords='365,260,460,385', href='contea.html', alt='Path1')
-    area(shape='rect', coords='640,375,750,475', href='foresta.html', alt='Path2')
-    area(shape='rect', coords='900,450,1175,675', href='mordor.html', alt='Path3')
-    
+body
+  #Presentazione.jumbotron
+    h1 La natura nel signore degli anelli
+    button#Bottone.btn.btn-outline-primary(type='button') 
+      a(href='/mappa.html') Mappa
+  script(src='scripts/scripts.js')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')

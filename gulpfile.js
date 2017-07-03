@@ -71,7 +71,7 @@ gulp.task('serve', () => {
   browserSync({
     server: './dist',
     baseDir: '/',
-    routes:['/index.html','/contea.html','/foresta.html','/mordor.htlm'],
+    routes:['/index.html','/contea.html','/foresta.html','/mordor.htlm','/mappa.html'],
     port: 4000,
     notify: false
   });
