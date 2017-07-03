@@ -4,9 +4,10 @@ block head
   title Home
 
 block content
-  img(src='./images/mappa_terradimezzo.jpg', width='100', height='100', alt='YourImage', usemap='#Immagine')
-    map(name='YourMap')
-      area(shape='rect', coords='0,0,82,126', href='contea.html', alt='Path1')
-      area(shape='circle', coords='90,58,3', href='foresta.html', alt='Path2')
-      area(shape='poly', coords='124,58,8, 1', href='mordor.html', alt='Path3')
-  #Immagine.jumbotron
+
+  img#Immagine(src='./images/mappa_terradimezzo.jpg', width='100', height='100', alt='YourImage', usemap='#YourMap')
+  map(name='YourMap')
+    area(shape='rect', coords='365,260,460,385', href='contea.html', alt='Path1')
+    area(shape='rect', coords='640,375,750,475', href='foresta.html', alt='Path2')
+    area(shape='rect', coords='900,450,1175,675', href='mordor.html', alt='Path3')
+    

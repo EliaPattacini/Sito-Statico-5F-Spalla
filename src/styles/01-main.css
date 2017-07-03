@@ -3,9 +3,9 @@
   padding-bottom: 0.2px!important;
   background-color: black!important;
   
-}
 
-.jumbotron{
+}
+#Immagine{
   min-height: 100vh;
   max-width:100%;
   max-height: 100%;
@@ -15,6 +15,54 @@
   text-align: center;
   padding: 0px;
   top:0px;
-  background-image: url("./images/mappa_terradimezzo.jpg");
-  background-color: white!important;
+}
+#Immaginecontea{
+  min-height: 100vh;
+  max-width:100%;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px;
+  top:0px;
+  background-image: url("./images/contea2.jpg");
+ }
+ #Immaginecontea2{
+  min-height: 100vh;
+  max-width:100%;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px;
+  top:0px;
+ }
+ #Immagineforesta{
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px;
+  top:0px;
+  background-image: url("./images/ent3.jpg")
+
+ }
+  #Immaginemordor{
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px;
+  top:0px;
+  background-image: url("./images/paludimorte.jpg")
+
+ }
 }

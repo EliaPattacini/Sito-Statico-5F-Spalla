@@ -1,0 +1,6 @@
+[0623/140228.625:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: Tentativo di accesso a un processo in fase di chiusura.  (0xc000010a)
+[0623/140229.174:ERROR:process_info.cc(116)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64>>(void *,unsigned __int64,struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64> *): Richiesta ReadProcessMemory o WriteProcessMemory completata solo parzialmente. (0x12B)
+[0623/140229.346:ERROR:process_info.cc(559)] ReadProcessData failed
+[0623/140229.422:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7feee892968 of 12 bytes failed: Richiesta ReadProcessMemory o WriteProcessMemory completata solo parzialmente. (0x12B)
+[0623/140229.472:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0623/140229.564:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
